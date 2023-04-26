@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Cards from "@/component/Cards";
+import API from "@/component/API";
+
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Cards />
+      <API />
     </>
   );
 }
